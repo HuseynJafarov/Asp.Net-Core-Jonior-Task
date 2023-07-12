@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\bin\Debug\net6.0\ToDo.Core.deps.json
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\bin\Debug\net6.0\ToDo.Core.runtimeconfig.json
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\bin\Debug\net6.0\ToDo.Core.dll
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\bin\Debug\net6.0\ToDo.Core.pdb
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\obj\Debug\net6.0\ToDo.Core.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\obj\Debug\net6.0\ToDo.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\obj\Debug\net6.0\ToDo.Core.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\obj\Debug\net6.0\ToDo.Core.AssemblyInfo.cs
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\obj\Debug\net6.0\ToDo.Core.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\obj\Debug\net6.0\ToDo.Core.dll
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\obj\Debug\net6.0\refint\ToDo.Core.dll
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\obj\Debug\net6.0\ToDo.Core.pdb
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\obj\Debug\net6.0\ToDo.Core.genruntimeconfig.cache
+C:\Users\HP\Desktop\Professional IT\ToDo.App\ToDo.Core\obj\Debug\net6.0\ref\ToDo.Core.dll

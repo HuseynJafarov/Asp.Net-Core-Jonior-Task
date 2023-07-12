@@ -1,0 +1,11 @@
+﻿@model List<Post>
+
+    @foreach (var item in Model)
+{
+    <li class="search-nameli" >
+        <a style="color:gray !important; ">
+            @item.id
+            @item.title
+        </a>
+    </li>
+}
