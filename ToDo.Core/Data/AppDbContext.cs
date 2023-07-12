@@ -17,8 +17,5 @@ namespace ToDo.Core.Data
 
         public DbSet<Post> Posts { get; set; }
         public DbSet<Album> Albums { get; set; }
-
-
-
     }
 }

@@ -9,7 +9,6 @@ namespace ToDo.Core.Entities
 {
     public class Album
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
         public int userId { get; set; }
         public string? title { get; set; }
