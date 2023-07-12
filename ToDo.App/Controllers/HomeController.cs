@@ -26,15 +26,13 @@ namespace ToDo.App.Controllers
             int count = await GetPageCount(take);
 
 
-            Paginate<Post> result = new Paginate<Post>(posts,page ,count);
+            Paginate<Post> paginate = new (posts,page ,count);
             HomeVM vm = new HomeVM()
             {
                 Posts = posts,
                 Albums = albums,
-                Paginate = result
+                Paginate = paginate
             };
-
-            ViewBag.take = take;
 
             return View(vm);
         }
@@ -49,8 +47,8 @@ namespace ToDo.App.Controllers
         {
             try
             {
-                //_context.Database.OpenConnection();
-                //_context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT Albums ON");
+                _context.Database.OpenConnection();
+                _context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT Albums ON");
 
                 var url = "https://jsonplaceholder.typicode.com/albums";
                 var entities = await ToDo.Helpers.ConvertJsonToObject.JsonDeserialize<List<Album>>(url);
@@ -61,8 +59,8 @@ namespace ToDo.App.Controllers
                 }
                 await _context.SaveChangesAsync();
 
-                //_context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT Albums OFF");
-                //_context.Database.CloseConnection();
+                _context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT Albums OFF");
+                _context.Database.CloseConnection();
             }
             catch (Exception)
             {
